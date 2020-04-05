@@ -3,74 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Background, Display, Position, Overflow</title>
+  <title>CSS Background, Display</title>
   <style>
-    body{
-      background: beige;
-      /* background: #2d7feb url('https://images.pexels.com/photos/1227520/pexels-photo-1227520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
-      background-size: cover;
-      background-repeat: no-repeat;
+    body {
+      background: azure;
     }
-    div {color: #ffffff; font-size: 35px;}
+    .title {text-align: center;}
 
-    .box {
+    .mainBox {
       width: 800px;
       height: 500px;
+      border: 1px solid red;
       margin: 50px auto;
-      /* background: radial-gradient(red, green,blue); */
-      background-color: #0093E9;
-      /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
-      background: url('https://images.pexels.com/photos/1227520/pexels-photo-1227520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-      background-size: 150%;
+      /* background: linear-gradient(deg, red, blue); */
+      /* background: radial-gradient(circle, #ffffff, green, blue); */
+      background-color: #08AEEA;
+      /* background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%); */
+      /* background: url('https://images.pexels.com/photos/1227520/pexels-photo-1227520.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
       background-repeat: no-repeat;
-      background-position: top right;
-      border-radius: 25px;
+      background-size: cover;
+      background-position: center; */
+      /* filter: grayscale(100%) */
+      /* filter: blur(5px); */
+      /* filter: contrast(150%); */
+      /* filter: brightness(150%); */
       display: flex;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
     }
-    .boxs1 {
-      width: 150px;
-      height: 150px;
-      background: green;
+    .box {
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      /* display: ; */
       margin: 5px;
-      /* display: inline-block; */
-    }
-    .boxs2 {
-      width: 150px;
-      height: 150px;
-      background: green;
-      margin: 5px;
-      /* display: inline-block; */
-    }
-    .boxs3 {
-      width: 150px;
-      height: 150px;
-      background: green;
-      margin: 5px;
-      /* display: inline-block; */
+      background: #ffffff;
     }
   </style>
 </head>
 <body>
-  <h1>Background, Display, Position, Overflow</h1>
+  <h1 class="title">CSS Background, Display</h1>
 
-  <div class="box">
-    <!-- <div class="boxs1">1</div>
-    <div class="boxs2">2</div>
-    <div class="boxs3">3</div> -->
-    <div>
-      <h1 style="text-align: center;">HELLO Programers</h1>
-      <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  <div class="mainBox">
+    <!-- <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div> -->
+    <div style="text-align: center;">
+      <h1>Hello Programmer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
     </div>
   </div>
-  
 </body>
 </html>
-
 <!-- 
   BACKGROUND
   color:
-  gradient
-  image
+  gradiant:
+  image:
+
+  parent-child
+
+  DISPLAY
+  block / none / flex / grid / table / ruby
  -->
