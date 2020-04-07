@@ -1,0 +1,95 @@
+body {
+  background: #c2c6ff;
+}
+/* a:hover {
+  cursor: none;
+  color: red;
+  background: #000;
+  font-size: 50px;
+} */
+table {
+  width: 100%;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+td {
+  /* border: 1px solid #000000; */
+  padding: 5px 10px;
+  text-align: center;
+}
+tr {
+  background: rgb(159, 255, 183);
+}
+tr:first-child {
+  font-weight: bold;
+  background: rgb(255, 195, 195);
+}
+tr:nth-child(even) {
+  background: rgb(109, 192, 130);
+}
+/* tr:last-child {
+  background: rgb(159, 255, 183);
+}
+td:first-child {
+  font-weight: bold;
+} */
+
+/* 
+selector type:
+name (selector)
+class (.selector)
+id (#selector)
+Pseudo (selector:Pseudo)
+
+
+
+even 0 2 4 6 8  
+odd  1 3 5 7 9 
+ */
+ 
+
+
+
+.container {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  background: rgb(255, 227, 227);
+}
+
+.box {
+  width: 250px;
+  background: rgb(140, 138, 250);
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  transition: 1s;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background: #ffffff;
+  margin: auto;
+  transition: 1s;
+}
+.box > p {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  transition: 1s;
+}
+
+/* Pseudo Styles */
+.box:hover {
+  background: rgb(63, 33, 119);
+}
+.box:hover p {
+  font-size: 30px;
+}
+.box:hover .circle {
+  width: 175px;
+  height: 175px;
+  background: rgb(121, 245, 116);
+}
