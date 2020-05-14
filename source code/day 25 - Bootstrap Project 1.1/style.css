@@ -1,0 +1,14 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+
+.card-custom {
+    width: 100%;
+    max-width: 20rem;
+    margin-bottom: 2rem;
+}
+.footer-list {
+    list-style: none;
+}
+.credit {
+    background: #962065;
+    color: #fff;
+}

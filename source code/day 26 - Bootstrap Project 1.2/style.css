@@ -1,0 +1,67 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.block-50 {
+    height: 50px;
+}
+.line {
+    width: 150px;
+    height: 5px;
+    border-radius: 999px;
+    background: #920c7c;
+    margin: 15px auto;
+}
+
+/* Navbar */
+.custom-nav {
+    min-height: 75px;
+    background: #ffffffbf;
+}
+
+/* Hero */
+.c-item {
+    height: 500px;
+    padding-top: 100px;
+    background-color: #962065;
+    background-size: cover;
+    background-position: bottom center;
+}
+.c-item-1 {
+    background:url(./img/img2.jpg);
+}
+.c-item-2 {
+    background:url(./img/img2.jpg);
+}
+
+/* Card */
+
+.card-custom {
+    width: 100%;
+    max-width: 20rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+
+/* Blockquotes */
+.blockquotes-thumb {
+    width: 100px;
+    height: 100px;
+}
+
+/* Fotter */
+.footer-list {
+    list-style: none;
+}
+.footer-list a {
+    text-decoration: none;
+    color: #ccc;
+}
+.footer-list a:hover {
+    color: #fff;
+}
+
+
+/* Cradit */
+.credit {
+    background: #962065;
+    color: #fff;
+}
